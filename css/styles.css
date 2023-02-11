@@ -181,6 +181,17 @@ nav {
   color: var(--contact-color);
 }
 
+.examples-icons-bg {
+  background-color: var(--team-color);
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.examples-icons {
+  display: block;
+  margin: 0 auto;
+}
+
 .examples h2 {
   margin-top: 96px;
 }
