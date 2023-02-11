@@ -5,6 +5,7 @@
   --brand-color: #212121;
   --link-color: #2196f3;
   --contact-color: #757575;
+  --icons-color: #afb1b8;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --bg-color: #2f303a;
 }
@@ -147,7 +148,8 @@ nav {
 .examples-cards,
 .portfolio,
 .info-cards,
-.team-cards {
+.team-cards,
+.client-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -160,6 +162,10 @@ nav {
 
 .examples-cards li {
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.client-cards li {
+  flex-basis: calc((100% - 150px) / 6);
 }
 
 .info-cards li,
@@ -187,9 +193,21 @@ nav {
   margin-bottom: 30px;
 }
 
-.examples-icons {
+.examples-icons,
+.client-logo {
   display: block;
   margin: 0 auto;
+}
+
+.client-logo {
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  fill: var(--icons-color);
+}
+
+.client-logo:hover {
+  fill: var(--link-color);
+  border-color: var(--link-color);
 }
 
 .examples h2 {
@@ -197,7 +215,8 @@ nav {
 }
 
 .examples h2,
-.team h2 {
+.team h2,
+.client h2 {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
