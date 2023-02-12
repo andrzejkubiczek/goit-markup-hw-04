@@ -240,7 +240,8 @@ nav {
 }
 
 .team-cards figcaption {
-  padding: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -254,6 +255,32 @@ nav {
 
 .team-cards .team-descr {
   color: var(--contact-color);
+}
+
+.team-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.team-social > a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social > a li {
+  padding: 12px;
+}
+
+.team-social > a li {
+  fill: var(--icons-color);
+}
+
+.team-social > a li:hover,
+.team-social > a li:focus {
+  background-color: var(--link-color);
+  border-radius: 50%;
+  fill: var(--white-color);
 }
 
 footer,
@@ -295,7 +322,8 @@ footer .container {
   background-color: var(--link-color);
 }
 
-.no-gap {
+.no-gap,
+.team-social .team-social-icon {
   display: block;
 }
 
