@@ -265,7 +265,7 @@ nav {
 }
 
 .team-social > a:not(:last-child),
-.footer-social-icons > a:not(:last-child) {
+.footer-social-icons > li:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -344,22 +344,26 @@ footer .container {
   text-transform: uppercase;
 }
 
-.footer-social-icons > a li {
+.footer-social-icons > li {
   padding: 12px;
-  fill: var(--white-color);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-icons > a li:hover,
-.footer-social-icons > a li:focus {
+.footer-social-icons > li:hover,
+.footer-social-icons > li:focus {
   background-color: var(--link-color);
 }
 
 .no-gap,
 .team-social-icon,
+.footer-social-icons li a,
 .footer-social-icon {
   display: block;
+}
+
+.footer-social-icon {
+  fill: var(--white-color);
 }
 
 .portfolio-buttons {
