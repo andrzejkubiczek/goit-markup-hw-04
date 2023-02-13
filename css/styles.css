@@ -269,13 +269,14 @@ nav {
   margin-right: 10px;
 }
 
-.team-social > li {
-  padding: 12px;
+.team-social > li a {
   fill: var(--icons-color);
+  padding: 12px;
+  display: block;
 }
 
-.team-social > li:hover,
-.team-social > li:focus {
+.team-social > li a:hover,
+.team-social > li a:focus {
   background-color: var(--link-color);
   border-radius: 50%;
   fill: var(--white-color);
@@ -344,27 +345,23 @@ footer .container {
   text-transform: uppercase;
 }
 
-.footer-social-icons > li {
+.footer-social-icons > li a {
+  fill: var(--white-color);
+  display: block;
   padding: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-icons > li:hover,
-.footer-social-icons > li:focus {
+.footer-social-icons > li a:hover,
+.footer-social-icons > li a:focus {
   background-color: var(--link-color);
 }
 
 .no-gap,
-.team-social > li a,
 .team-social-icon,
-.footer-social-icons > li a,
 .footer-social-icon {
   display: block;
-}
-
-.footer-social-icon {
-  fill: var(--white-color);
 }
 
 .portfolio-buttons {
