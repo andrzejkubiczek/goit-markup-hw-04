@@ -106,20 +106,21 @@ nav {
 }
 
 .contact li:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
-.contact li {
-  display: flex;
-  align-items: center;
-}
-
-.contact-icons {
-  margin-right: 10px;
-}
-
-.contact li a {
+.contact .contact-icons a {
   color: var(--contact-color);
+  fill: var(--contact-color);
+}
+
+.contact .contact-icons a:hover,
+.contact .contact-icons a:focus {
+  fill: var(--link-color);
+}
+
+.contact .contact-icons svg {
+  margin-right: 10px;
 }
 
 .order {
