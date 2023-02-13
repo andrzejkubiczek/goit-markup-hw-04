@@ -110,8 +110,8 @@ nav {
 }
 
 .contact .contact-icons a {
-  color: var(--contact-color);
   fill: var(--contact-color);
+  color: var(--contact-color);
 }
 
 .contact .contact-icons a:hover,
@@ -387,9 +387,9 @@ footer .container {
   margin-bottom: 50px;
 }
 
-.portfolio-buttons-list {
+.portfolio-buttons-list,
+.contact .contact-icons a {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
