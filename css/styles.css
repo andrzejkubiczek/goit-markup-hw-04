@@ -109,6 +109,15 @@ nav {
   margin-right: 50px;
 }
 
+.contact li {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons {
+  margin-right: 10px;
+}
+
 .contact li a {
   color: var(--contact-color);
 }
