@@ -113,6 +113,16 @@ nav {
   color: var(--contact-color);
 }
 
+.order {
+  max-width: 1600px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/order-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
 .order .container {
   padding-top: 106px;
   padding-bottom: 106px;
@@ -282,8 +292,7 @@ nav {
   fill: var(--white-color);
 }
 
-footer,
-.order {
+footer {
   background-color: var(--bg-color);
 }
 
