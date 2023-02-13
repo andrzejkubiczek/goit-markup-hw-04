@@ -264,18 +264,18 @@ nav {
   margin-bottom: 18px;
 }
 
-.team-social > a:not(:last-child),
+.team-social > li:not(:last-child),
 .footer-social-icons > li:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-social > a li {
+.team-social > li {
   padding: 12px;
   fill: var(--icons-color);
 }
 
-.team-social > a li:hover,
-.team-social > a li:focus {
+.team-social > li:hover,
+.team-social > li:focus {
   background-color: var(--link-color);
   border-radius: 50%;
   fill: var(--white-color);
@@ -356,8 +356,9 @@ footer .container {
 }
 
 .no-gap,
+.team-social > li a,
 .team-social-icon,
-.footer-social-icons li a,
+.footer-social-icons > li a,
 .footer-social-icon {
   display: block;
 }
