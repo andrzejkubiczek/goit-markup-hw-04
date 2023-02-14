@@ -128,8 +128,7 @@ nav {
     url('../images/order-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
-  margin: auto;
+  background-size: auto auto;
 }
 
 .order .container {
