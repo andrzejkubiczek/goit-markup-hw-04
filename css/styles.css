@@ -124,12 +124,11 @@ nav {
 }
 
 .order {
-  max-width: 1600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/order-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   margin: auto;
 }
 
@@ -157,6 +156,8 @@ nav {
   display: block;
   border: 0;
   text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
@@ -212,6 +213,7 @@ nav {
   background-color: var(--team-color);
   padding: 25px 100px;
   margin-bottom: 30px;
+  border-radius: 4px;
 }
 
 .examples-icons,
@@ -302,7 +304,8 @@ nav {
   fill: var(--white-color);
 }
 
-footer {
+footer,
+.order {
   background-color: var(--bg-color);
 }
 
