@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--white-color);
   letter-spacing: 0.02em;
@@ -57,7 +57,7 @@ address {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: var(--primary-brand-color);
@@ -107,8 +107,7 @@ address {
   padding: 120px 0;
 }
 
-.hero,
-.page-footer {
+.hero {
   background-color: var(--dark-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -240,6 +239,7 @@ address {
 
 .page-footer {
   padding: 100px 0;
+  background-color: var(--dark-color);
 }
 
 .page-footer .container {
