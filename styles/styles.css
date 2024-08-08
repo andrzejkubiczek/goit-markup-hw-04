@@ -206,6 +206,32 @@ address {
   padding: 32px 16px;
 }
 
+.team-social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-list {
+  width: 40px;
+  height: 40px;
+}
+
+.team-social-link {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--primary-brand-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-icon {
+  fill: var(--light-color);
+}
+
 .portfolio-info {
   border-width: 0 1px 1px;
   border-style: solid;
