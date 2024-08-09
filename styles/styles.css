@@ -9,7 +9,7 @@
   --dark-color: #2e2f42;
   --success-color: #31d0aa;
   --text-color: #434455;
-  --subtle-text-color: #8e9f99;
+  --subtle-text-color: #8e8f99;
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
   --white-color: #fff;
@@ -86,6 +86,7 @@ address {
   font-size: 16px;
   color: var(--dark-color);
   line-height: 1.5;
+  position: relative;
 }
 
 .menu-link:hover,
@@ -93,6 +94,17 @@ address {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--pressed-state-color);
+}
+
+.menu-link::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: var(--pressed-state-color);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -24px;
 }
 
 .contact-link {
@@ -166,6 +178,12 @@ address {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.features-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .features-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -174,11 +192,20 @@ address {
 }
 
 .features-item-text {
-  margin-top: 8px;
   font-size: 16px;
   line-height: 1.5;
 }
 
+.features-icons {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-color);
+  border: 1px solid var(--subtle-text-color);
+  border-radius: 4px;
+}
 .team {
   background-color: var(--light-color);
 }
