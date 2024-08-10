@@ -1,1 +1,1 @@
-https://andrzejkubiczek.github.io/goit-markup-hw-04/
+https://jedrekk86.github.io/goit-markup-hw-04/
