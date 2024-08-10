@@ -52,8 +52,6 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -86,7 +84,9 @@ address {
   font-size: 16px;
   color: var(--dark-color);
   line-height: 1.5;
-  position: relative;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .menu-link:hover,
@@ -96,15 +96,20 @@ address {
   color: var(--pressed-state-color);
 }
 
-.menu-link::after {
+.menu-link.active {
+  position: relative;
+  color: var(--pressed-state-color);
+}
+
+.menu-link.active::after {
+  display: block;
   content: '';
-  width: 100%;
   height: 4px;
   background-color: var(--pressed-state-color);
   border-radius: 2px;
   position: absolute;
-  left: 0;
-  bottom: -24px;
+  width: 100%;
+  bottom: 0;
 }
 
 .contact-link {
