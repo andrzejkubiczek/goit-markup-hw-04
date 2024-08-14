@@ -170,6 +170,7 @@ address {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-color);
+  transition: background-color 250ms var(--cubic-bezier);
 }
 
 .features-list,
